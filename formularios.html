@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+    <!-- Campos do formulário: nome, senha, email, idade, data de nascimento, endereço, telefone, sexo, termos -->
+    <!-- Formulários -->
+    <h1>Formulários</h1>
     <form action="script.php" method="post">
        <label for="nome">Nome:</label>  
-       <input type="text" name="nome" id="nome" />
+       <input type="text" name="nome" id="nome" /><br>
        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha" />
+        <input type="password" name="senha" id="senha" /><br>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" />
+        <input type="email" name="email" id="email" /><br>
         <label for="idade">Idade:</label>
-        <input type="number" name="idade" id="idade" />
+        <input type="number" name="idade" id="idade" /><br>
         <label for="cor">Cor favorita:</label>
-        <input type="color" name="cor" id="cor" />
+        <input type="color" name="cor" id="cor" /><br> 
         <label for="data">Data de nascimento:</label>
-        <input type="date" name="data" id="data" />
+        <input type="date" name="data" id="data" /><br>
         <label for="arquivo">Arquivo:</label>
-        <input type="file" name="arquivo" id="arquivo" />
+        <input type="file" name="arquivo" id="arquivo" /><br>
         <label for="imagem">Imagem:</label>
-        <input type="image" name="imagem" id="imagem" />
+        <input type="image" name="imagem" id="imagem" /><br>
         <label for="sexo">Sexo:</label>
         <input type="radio" name="sexo" id="sexo" value="M" />Masculino
-        <input type="radio" name="sexo" id="sexo" value="F" />Feminino
+        <input type="radio" name="sexo" id="sexo" value="F" />Feminino<br>
         <label for="termos">Aceita os termos?</label>
         <input type="checkbox" name="termos" id="termos" />
-         
+         <br>
          <input type="submit" value="Enviar" />
          <input type="reset" value="Limpar" />
     </form>
