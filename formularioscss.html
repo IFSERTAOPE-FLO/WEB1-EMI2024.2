@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Campos do formulário: nome, senha, email, idade, data de nascimento, endereço, telefone, sexo, termos -->
+    <!-- Formulários -->
+    <h1>Formulários</h1>
+    <form action="script.php" method="post">
+       <label for="nome" id="nome" class="nome">Nome:</label>  
+       <input type="text" name="nome" id="nome" /><br>
+       <label for="senha" class="nome">Senha:</label>
+        <input type="password" name="senha" id="senha" /><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" /><br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" /><br>
+        <label for="cor">Cor favorita:</label>
+        <input type="color" name="cor" id="cor" /><br> 
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" id="data" /><br>
+        <label for="arquivo">Arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo" /><br>
+        <label for="imagem">Imagem:</label>
+        <input type="image" name="imagem" id="imagem" /><br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" id="sexo" value="M" />Masculino
+        <input type="radio" name="sexo" id="sexo" value="F" />Feminino<br>
+        <label for="termos">Aceita os termos?</label>
+        <input type="checkbox" name="termos" id="termos" />
+         <br>
+         <input type="submit" value="Enviar" />
+         <input type="reset" value="Limpar" />
+    OI, aqui é um teste
+    </form>
+    <img src="C-3PO.jpg" alt="C-3PO" />
+    <img src="C-3PO.jpg" alt="C-3PO8" />
+    <br><br>
+
+    <!-- Links para aplicar pseudo-classes -->
+    <a href="http://www.google.com">Google</a>
+</body>
+</html>

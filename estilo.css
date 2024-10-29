@@ -1,0 +1,33 @@
+*{
+    /* Fonte padrão */
+    font-family: Arial, sans-serif;
+}
+
+form #nome, h1{
+    /* Cor do texto */
+    color: red;
+}
+.nome{
+    /*fundo do texto */
+    background-color: blue;
+}
+
+img[alt="C-3PO"]{
+    /* Borda */
+    border: 1px solid black;
+}
+a{
+    /* Cor do link */
+    color: #38b03e;
+    text-decoration: none;
+}
+a:hover{
+    /* Cor do link ao passar o mouse */
+    color: #000;
+    text-decoration: underline;
+}
+
+a:focus{
+    /* Cor do link ao focar */
+    color: green;
+}
