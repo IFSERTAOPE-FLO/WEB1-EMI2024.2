@@ -1,0 +1,30 @@
+.fonte {
+    /* Nome da cor. */
+    color: red;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fonte1{
+    /* Notação hexadecimal. */
+    color: #4ea037;
+    font-style: italic;
+}
+
+.fonte2{
+    /* Notação RGB. */
+    color: rgb(189, 54, 54);
+    font-variant: small-caps;
+}
+
+.fonte3{
+    /* Notação RGBA. */
+    color: rgba(189, 54, 54, 0.316);
+    font: italic normal bold x-large/1.167em Helvetica, Arial,
+    sans-serif;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.bold{
+    font-weight: bold;
+}
