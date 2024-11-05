@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        /* Grid */
+        .grid {
+            display: grid;
+        }
+
+        .logo {
+            grid-area: logo;
+        }
+
+        .nav {
+            grid-area: nav;
+        }
+
+        .content {
+            grid-area: content;
+        }
+
+        .sidenav {
+            grid-area: sidenav;
+        }
+
+        .advert {
+            grid-area: advert;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        .grid-template-areas-1 {
+            grid-template-areas:
+                "logo nav nav"
+                "sidenav content advert"
+                "sidenav footer footer"
+                ;
+        }
+
+        /* Grid Item */
+        .item {
+            margin: 5px;
+            background: rgba(255, 99, 71, 0.242);
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        .grid {
+            max-width: 90%;
+            height: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.25em;
+            font-weight: normal;
+        }
+
+        body {
+            font-family: monospace;
+            color: #333;
+            padding-bottom: 60px;
+            margin: 0px;
+        }
+
+        body > div {
+            padding: 40px 0;
+        }
+
+        body > div:nth-of-type(even) {
+            background: rgba(0,0,0,.03);
+        }
+
+        body > div > img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .wrapper {
+            display: flex;  
+            flex-flow: row wrap;
+            font-weight: bold;
+            text-align: center; 
+            }
+
+        .wrapper > * {
+            padding: 10px;
+            flex: 1 100%;
+        }
+
+        .header {
+            background: tomato;
+        }
+
+        footer.footer {
+            background: lightgreen;
+        }
+
+        .main {
+            text-align: left;
+            background: deepskyblue;
+        }
+
+        .aside-1 {
+            background: gold;
+        }
+
+        .aside-2 {
+            background: hotpink;
+        }
+
+        @media all and (min-width: 600px) {
+            .aside { flex: 1 0 0; }
+        }
+
+        @media all and (min-width: 800px) {
+            .main    { flex: 3 0px; }
+            .aside-1 { order: 1; }
+            .main    { order: 2; }
+            .aside-2 { order: 3; }
+            .footer  { order: 4; }
+        }
+
+        body {
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <section class="grid grid-template-areas-1">
+            <div class="item logo">logo</div>
+            <div class="item nav">nav</div>
+            <div class="item content">content</div>
+            <div class="item sidenav">sidenav</div>
+            <div class="item advert">advert</div>
+            <div class="item footer">footer</div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <header class="header">Header</header>
+        <article class="main">
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>  
+        </article>
+        <aside class="aside aside-1">Aside 1</aside>
+        <aside class="aside aside-2">Aside 2</aside>
+        <footer class="footer">Footer</footer>
+    </div>
+</body>
+</html>

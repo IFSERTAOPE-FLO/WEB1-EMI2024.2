@@ -3,6 +3,9 @@
     color: red;
     font-size: 14px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 1px 1px 1px #000;
+    background-color: rgba(0, 0, 0, 0.691);
+    padding: 10px;
 }
 
 .fonte1{
@@ -27,4 +30,25 @@
 
 .bold{
     font-weight: bold;
+}
+
+/* Colocar uma imagem de fundo com opacidade */
+
+body{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background: url(dji_fly_20241103_111856_219_1730644774311_photo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Opacidade */
+div.opacidade{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 0px;
+    height: 1000px;
 }
