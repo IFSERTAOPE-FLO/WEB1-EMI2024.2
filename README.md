@@ -158,7 +158,7 @@ Para o seu sistema de gestão de consultório de fisioterapia e pilates, as tela
 
 ---
 
-### Extras (Opcional)
+### Extras
 - **App Móvel para Clientes:**
   - Agendamentos, check-in e visualização de cobranças.
 - **App Móvel para Profissionais:**
