@@ -1,3 +1,11 @@
+## Avaliação:
+- Funcionalidades solicitadas
+- Páginas validades de acordo com a [W3C](https://validator.w3.org/)
+- Avaliação individual com base no que está definido nas tarefas de cada usuário (Issues do Github)
+- Avaliação do CSS para diferentes telas: móvel e desktop
+- Uso de Grid CSS e/ou Flexbox
+
+
 Para o seu sistema de gestão de consultório de fisioterapia e pilates, as telas devem ser projetadas de forma intuitiva, cobrindo todas as funcionalidades essenciais. Aqui está uma lista de telas que devem ser implementadas, juntamente com descrições das funcionalidades de cada uma:
 
 ---
