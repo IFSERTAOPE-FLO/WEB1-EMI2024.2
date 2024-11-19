@@ -6,13 +6,24 @@
     <title>Document</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS -->
+    <style>
+        body{
+            background: linear-gradient(135deg, #003910, #0f2111);
+            height: 950px;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <!-- Campos do formulário: nome, senha, email, idade, data de nascimento, endereço, telefone, sexo, termos -->
     <!-- Formulários -->
     <h1>Formulários</h1>
     <form action="script.php" method="post">
-       <label for="nome">Nome:</label>  
+        <label for="nome">Nome:</label><br>
        <input type="text" name="nome" id="nome" /><br>
        <label for="senha">Senha:</label>
         <input type="password" name="senha" id="senha" /><br>
@@ -27,6 +38,14 @@
         <label for="arquivo">Arquivo:</label>
         <input type="file" name="arquivo" id="arquivo" /><br>
         <label for="imagem">Imagem:</label>
+        <input type="image" name="imagem" id="imagem" /><br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" id="sexo" value="M" />Masculino
+        <input type="radio" name="sexo" id="sexo" value="F" />Feminino<br>
+        <label for="termos">Aceita os termos?</label>
+        <input type="checkbox" name="termos" id="termos" />
+         <br>
+         <label for="imagem">Imagem:</label>
         <input type="image" name="imagem" id="imagem" /><br>
         <label for="sexo">Sexo:</label>
         <input type="radio" name="sexo" id="sexo" value="M" />Masculino
